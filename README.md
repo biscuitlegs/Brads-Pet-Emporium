@@ -10,9 +10,7 @@ To practise implementing basic HTML and CSS in a web page.
 
 ///Researched during project///
 
-Use of media queries
-Use of wrappers and containers
-Positioning elements using CSS properties
+Use of media queries, use of wrappers and containers, positioning elements using CSS properties.
 
 
 ///Future updates///
