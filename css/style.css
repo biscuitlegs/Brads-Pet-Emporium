@@ -1,0 +1,134 @@
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: grey;
+}
+
+.content-wrapper {
+    display: block;
+    height: 450px;
+}
+
+.header-wrapper {
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding: 50px 0;
+}
+
+.text-wrapper {
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    margin: 20px;
+}
+
+.btn {
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 5%;
+    display: block;
+    width: 90px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+    font-weight: bold;
+    border: 3px solid #fff;
+}
+
+/*Showcase*/
+#showcase .background-img {
+    background: url('../images/showcase-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    height: 450px;
+    position: absolute;
+    display: block;
+    top: -0px;
+}
+
+/*Food*/
+#food .background-img {
+    background: url('../images/food-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    height: 450px;
+    position: absolute;
+    display: block;
+    top: 450px;
+}
+
+/*Bathing*/
+#bathing .background-img {
+    background: url('../images/bathing-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    height: 450px;
+    position: absolute;
+    display: block;
+    top: 900px;
+}
+
+/*Exercise*/
+#exercise .background-img {
+    background: url('../images/exercise-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    height: 450px;
+    position: absolute;
+    display: block;
+    top: 1350px;
+}
+
+/*Footer*/
+.footer {
+    display: block;
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+/*Media Queries*/
+/*Tablet*/
+@media (min-width: 768px) {
+    .text-wrapper {
+        font-size: 25px;
+        margin: 10px 20px;
+    }
+
+    .header-wrapper {
+        font-size: 30px;
+        padding: 40px;
+    }
+    .btn {
+        font-size: 25px;
+        padding: 10px 50px;
+    }
+
+}
